@@ -1,0 +1,30 @@
+.contenido {
+    display: grid;
+    gap: 4rem;
+}
+
+.contenido p {
+    margin-right: 6rem;
+}
+
+@media (min-width: 768px){ 
+    .contenido {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--primary);
+    margin: 3rem 2rem 2rem 2rem;
+  }
+
+  .imagen {
+    background-image: url(../../public/img/pattern.png);
+    margin-left: 4rem;
+    border-radius: 40rem;
+    
+  }

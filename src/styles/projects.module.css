@@ -1,0 +1,43 @@
+.projects {
+    color: var(--primary);
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects h3 {
+    text-align: left;
+    padding: 3rem;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px){ 
+    .contenido{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Projects with HTML y CSS */
+
+.boxes {
+    color: black;
+    background-color: #e1e1e1;
+    background-position: center;
+    margin: 2rem;
+    border-radius: 3rem;
+    text-transform: none;
+    font-size: 2.5rem;
+    transition-property: transform background-size;
+    transition-duration: .3s;
+}
+
+.boxes:hover {
+    transform: scale(1.1);
+    background-size: 30rem;
+}
